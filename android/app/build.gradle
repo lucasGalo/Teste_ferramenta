@@ -93,11 +93,6 @@ android {
 
     compileSdkVersion rootProject.ext.compileSdkVersion
 
-    compileOptions {
-        sourceCompatibility JavaVersion.VERSION_11
-        targetCompatibility JavaVersion.VERSION_11
-    }
-
     namespace "com.teste_ferramenta"
     defaultConfig {
         applicationId "com.teste_ferramenta"
